@@ -1,0 +1,26 @@
+@import '../styles/colors';
+
+footer{
+    display: flex;
+    
+    justify-content: center;
+    width: 100%;
+    background-color: $green-800;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 14.125rem;
+    width: 85rem;
+    
+
+    span{
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+}
+
