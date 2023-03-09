@@ -13,14 +13,17 @@ export function RegionCard({
     regionImg
 }: RegionCardProps) {
     return (
+        <div className={styles.regionContainer}>
+
         <div className={styles.regionCard}>            
                 <img src={regionImg} alt="" />            
                 <h2> {regionName}</h2>                
             <div className={styles.regionContent}>
                     <h4> {regionTour}</h4>
-                    <span> À partir de R$ {regionPrice}</span>
+                    <span> À partir de  <ins className='priceStyle'>R$ {regionPrice}</ins></span>
             </div>
 
+        </div>
         </div>
     )
 }

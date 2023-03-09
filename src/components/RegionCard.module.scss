@@ -1,38 +1,53 @@
 @import '../styles/colors';
 
-.regionCard{
-    display: flex;   
-    flex-direction: column;
-    border-radius: 12px;   
-    box-shadow: 0 3px 8px rgb(0 0 0 / 0.5);
-    height: 20rem;
-    width: 35rem;
-    margin-bottom: 1rem;
-    background-color: rgb(255, 255, 255);
+.regionContainer {
+    transition: transform .2s;
 
-    .regionContent{
+    .regionCard:hover {
+        transform: scale(1.01);
+    }
+
+    .regionCard {
         display: flex;
-        width: 100%;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 2rem;
-
-        h4{
-            font-size: x-large;
-            font-weight: 500;
-        }
-
-        regionPrice{
-            color: $green-500;
-        }
-    }
-
-    h2{
-        margin: 0.438rem 0.813rem ;
-    }
-
-    img{        
+        border-radius: 12px;
+        box-shadow: 0 3px 8px rgb(0 0 0 / 0.5);
+        height: 20rem;
         width: 35rem;
-        height: 10rem;
+        margin-bottom: 1rem;
+        background-color: rgb(255, 255, 255);
+        transition: transform .2s;
+
+        .regionCard:hover {
+            transform: scale(1.5);
+        }
+
+        .regionContent {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 2rem;
+
+            h4 {
+                font-size: x-large;
+                font-weight: 500;
+            }
+
+            ins {
+                cursor: pointer;
+                color: $green-500;
+            }
+        }
+
+        h2 {
+            margin: 0.438rem 0.813rem;
+        }
+
+        img {
+            width: 35rem;
+            height: 10rem;
+        }
     }
+
 }
