@@ -1,9 +1,10 @@
 @import '../styles/colors';
 
 footer {
-    display: flex;
-
+    display: flex;    
     justify-content: center;
+    margin-top: 5rem;
+    align-items: center;
     width: 100%;
     background-color: $green-800;
 

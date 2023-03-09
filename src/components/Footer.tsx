@@ -8,9 +8,9 @@ export function Footer() {
             </div>           
                 <div className={styles.socialButtons}>
                     <img src="src\assets\icons\Icon=Facebook.png" alt="" />
+                    <img src="src\assets\icons\Icon=Youtube.png" alt="" />
                     <img src="src\assets\icons\Icon=Instagram.png" alt="" />
                     <img src="src\assets\icons\Icon=Whatsapp.png" alt="" />
-                    <img src="src\assets\icons\Icon=Youtube.png" alt="" />
                 </div>            
         </footer>
     )
