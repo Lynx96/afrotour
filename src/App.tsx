@@ -38,38 +38,37 @@ function App() {
           <div className={styles.welcomeRegions}>
             <h1>
               Para onde vamos?
-            </h1>
-
-            <RegionCard
-              regionName="Nordeste"
-              regionTour='Passeios - praias - carnaval'
-              regionPrice={299.90} 
-              regionImg='src\assets\nordeste.png'/>
-            <RegionCard
-              regionName="Sudeste"
-              regionTour='Passeios - praias - carnaval'
-              regionPrice={599.90}
-              regionImg='src\assets\sudeste.png' />
-            <RegionCard
-              regionName="Norte"
-              regionTour='Passeios - praias - carnaval'
-              regionPrice={199.90}
-              regionImg='src\assets\norte.png' />
-            <RegionCard
-              regionName="Sul"
-              regionTour='Passeios - praias - carnaval'
-              regionPrice={199.90}
-              regionImg='src\assets\sul.png' />
-            <RegionCard
-              regionName="Centro-Oeste"
-              regionTour='Passeios - praias - carnaval'
-              regionPrice={199.90}
-              regionImg='src\assets\centrooeste.png' />            
+            </h1>          
+              <RegionCard
+                regionName="Nordeste"
+                regionTour='Passeios - praias - carnaval'
+                regionPrice={299.90}
+                regionImg='src\assets\nordeste.png'
+              /* regionLink='' */ />
+              <RegionCard
+                regionName="Sudeste"
+                regionTour='Passeios - praias - carnaval'
+                regionPrice={599.90}
+                regionImg='src\assets\sudeste.png' />
+              <RegionCard
+                regionName="Norte"
+                regionTour='Passeios - praias - carnaval'
+                regionPrice={199.90}
+                regionImg='src\assets\norte.png' />
+              <RegionCard
+                regionName="Sul"
+                regionTour='Passeios - praias - carnaval'
+                regionPrice={199.90}
+                regionImg='src\assets\sul.png' />
+              <RegionCard
+                regionName="Centro-Oeste"
+                regionTour='Passeios - praias - carnaval'
+                regionPrice={199.90}
+                regionImg='src\assets\centrooeste.png' />           
           </div>
         </div>
       </main>
-
-      <Footer/>
+      <Footer />
     </>
   )
 }

@@ -7,9 +7,7 @@
         transform: scale(1.01);
     }
 
-    .regionCard {
-        display: flex;
-        flex-direction: column;
+    .regionCard {        
         border-radius: 12px;
         box-shadow: 0 3px 8px rgb(0 0 0 / 0.5);
         height: 20rem;
@@ -34,7 +32,7 @@
                 font-weight: 500;
             }
 
-            ins {
+            span {
                 cursor: pointer;
                 color: $green-500;
             }

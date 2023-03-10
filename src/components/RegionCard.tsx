@@ -5,25 +5,31 @@ interface RegionCardProps {
     regionTour: string
     regionPrice: number
     regionImg: string
+   /*  regionLink: string */
 }
 export function RegionCard({
     regionName,
     regionTour,
     regionPrice,
-    regionImg
+    regionImg,
+   /*  regionLink */
 }: RegionCardProps) {
     return (
-        <div className={styles.regionContainer}>
+       /* <a href={regionLink}> */
 
-        <div className={styles.regionCard}>            
-                <img src={regionImg} alt="" />            
-                <h2> {regionName}</h2>                
-            <div className={styles.regionContent}>
-                    <h4> {regionTour}</h4>
-                    <span> À partir de  <ins className='priceStyle'>R$ {regionPrice}</ins></span>
+            <div className={styles.regionContainer}>
+
+                <div className={styles.regionCard}>
+                    <img src={regionImg} alt="" />
+                    <h2> {regionName}</h2>
+                    <div className={styles.regionContent}>
+                        <h4> {regionTour}</h4>
+                        <p> À partir de  <span className='priceStyle'>R$ {regionPrice}</span></p>
+                    </div>
+
+                </div>
             </div>
 
-        </div>
-        </div>
+       /*  </a> */
     )
 }
