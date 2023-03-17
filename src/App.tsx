@@ -12,8 +12,7 @@ function App() {
   return (
     <>
       <Header />
-      <Router/>
-     
+      <Router/>     
       <Footer />
     </>
   )

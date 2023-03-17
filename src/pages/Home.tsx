@@ -2,6 +2,7 @@ import styles from './Home.module.scss'
 import wppIcon from '../assets/wppsvg.svg'
 import FriendsImage from '../assets/friends.png'
 import { RegionCard } from '../components/RegionCard'
+import { Title } from '../components/Title'
 
 
 export function Home(){
@@ -30,9 +31,9 @@ export function Home(){
         </div>
         <div>
           <div className={styles.welcomeRegions}>
-            <h1>
-              Para onde vamos?
-            </h1>          
+            <Title>Para onde vamos?</Title>
+            
+                      
               <RegionCard
                 regionName="Nordeste"
                 regionTour='Passeios - praias - carnaval'

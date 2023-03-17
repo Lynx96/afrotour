@@ -17,13 +17,11 @@ export function RegionCard({
     const navigate = useNavigate();
     function handleNavigate(){
         navigate('./regionPage');
+        navigate('./regionPage')
 
 
     }
     return (
-
-
-
         <div className={styles.regionContainer}>
 
             <div className={styles.regionCard} onClick={handleNavigate}>

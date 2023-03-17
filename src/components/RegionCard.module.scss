@@ -15,6 +15,7 @@
         margin-bottom: 1rem;
         background-color: rgb(255, 255, 255);
         transition: transform .2s;
+        cursor: pointer;
 
         .regionCard:hover {
             transform: scale(1.5);
