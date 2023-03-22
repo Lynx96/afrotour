@@ -5,6 +5,7 @@ import { Footer } from '../components/Footer'
 
 import styles from './RegionPage.module.scss'
 import { Title } from '../components/Title'
+import { CityCard } from '../components/CityCard'
 
 interface RegionPageProps {
     RegionImg: string
@@ -57,117 +58,15 @@ export function RegionPage({
                         <Title>Escolha uma cidade</Title>
                         <h3>Espirito Santo</h3>
                         <ul>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
-                                <div>
-                                    <h4>Vitória</h4>
-                                    <div className={styles.cityInfo}>
-                                        <p>326 644 Habitantes</p>
-                                        <p>845 km²</p>
-                                    </div>
-                                </div>
-                            </li>
-
+                            
+                           <CityCard 
+                           cityImg="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
+                           cityName='Vitoria'
+                           cityDensity={452487} 
+                           cityArea={845}
+                           />
+                           
+                          
                         </ul>
                     </div>
 
