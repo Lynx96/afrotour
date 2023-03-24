@@ -1,11 +1,17 @@
+import { useNavigate } from 'react-router-dom'
+import { Home } from '../pages/Home';
 import styles from './Header.module.scss'
+
 export function Header() {
-    return(
-        <header >
-            <div className={styles.header}>
-                Afro<span>Tour</span>
+    const navigate = useNavigate();
+    return (
+        <header>
+            <div className={styles.header} onClick={() => navigate("/")}>
+                <div>
+                    Afro<span>Tour</span>
+                </div>
             </div>
-            
         </header>
+
     )
 }

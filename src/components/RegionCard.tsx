@@ -7,24 +7,25 @@ interface RegionCardProps {
     regionTour: string
     regionPrice: number
     regionImg: string   
+    regionLink: string
 }
 export function RegionCard({
     regionName,
     regionTour,
     regionPrice,
     regionImg,
+    regionLink
 }: RegionCardProps) {
     const navigate = useNavigate();
-    function handleNavigate(){
-        navigate('./regionPage');
-        navigate('./regionPage')
+    /* const handleNavigate = () =>{
+        let path = `newPath`;
+        navigate({regionLink});
 
-
-    }
+    } */
     return (
         <div className={styles.regionContainer}>
 
-            <div className={styles.regionCard} onClick={handleNavigate}>
+            <div className={styles.regionCard} onClick={()=>navigate(regionLink)}>
                 <img src={regionImg} alt="" />
                 <h2> {regionName}</h2>
                 <div className={styles.regionContent}>
