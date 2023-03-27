@@ -12,6 +12,7 @@ footer {
     .footer {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         height: 14.125rem;
         width: 85rem;
 
@@ -35,6 +36,14 @@ footer {
         transform: scale(1.2);
 
 
+    }
+
+    @media screen and (max-width: 1147px){
+        .footer{
+            padding: 3rem;
+            justify-content: space-around;
+            flex-direction: column;
+        }
     }
 
 

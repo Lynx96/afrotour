@@ -83,12 +83,13 @@
     }
 
     .welcomeRegions {
+        display: flex;       
+        flex-wrap: wrap;
+        justify-content: center;
         max-width: 73rem;
         padding: 0 1rem;
         margin: 0 auto;
         gap: 1rem;
-        display: flex;       
-        flex-wrap: wrap;
         
 
        

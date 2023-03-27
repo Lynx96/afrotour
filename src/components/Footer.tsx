@@ -5,13 +5,13 @@ export function Footer() {
         <footer>
             <div className={styles.footer}>
                 <span>Todos os direitos reservados ©</span>
-            </div>           
                 <div className={styles.socialButtons}>
                     <img src="src\assets\icons\Icon=Facebook.png" alt="" />
                     <img src="src\assets\icons\Icon=Youtube.png" alt="" />
                     <img src="src\assets\icons\Icon=Instagram.png" alt="" />
                     <img src="src\assets\icons\Icon=Whatsapp.png" alt="" />
                 </div>            
+            </div>           
         </footer>
     )
 }

@@ -39,18 +39,14 @@
 
     .contentInfo {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 85rem;
+        width: 80%;
         gap: 1rem;
+        align-items: center;
 
         >ul {
             display: flex;
             flex: 1;
-
-            justify-content: space-around;
-
+            justify-content: space-evenly;
             list-style: none;
 
 
@@ -73,8 +69,19 @@
             text-align: justify;
             width: 34.5rem;
             word-break: break-all;
+            padding: 1rem;
         }
 
+        @media screen and (max-width: 1350px) {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            width: 100%;
+
+            ul {
+                width: 100%;
+            }
+        }
     }
 
     p,
@@ -87,7 +94,7 @@
 
 .cityList {
     display: flex;
-    width: 85rem;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
 
