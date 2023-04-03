@@ -1,30 +1,25 @@
 @import '../styles/colors';
 
 .regionInfo {
-    height: 30.875rem;
+
+    display: flex;      
     background: no-repeat center;
-    background-size: 100%;
+    background-size: 100%;   
+    padding: 12rem 4rem 4rem;
+    margin: 0 auto;
+    align-items: flex-end;
+    max-height: calc(28rem + 2vw);
+    
 
-
-    div {
-        width: 100%;
-        padding: 4rem;
-        margin: 0 auto;
-        height: 100%;
-
-
-        display: flex;
-        align-items: flex-end;
-
-        h1 {
-            color: $white;
-            font-size: 3rem;
-            font-family: 'Poppins' sans-serif;
-            font-weight: 400;
-            text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
-        }
-
+    h1 {
+        color: $white;
+        font-size: 3rem;
+        font-family: 'Poppins' sans-serif;
+        font-weight: 400;        
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     }
+
+
 }
 
 .content {
@@ -99,7 +94,7 @@
     justify-content: center;
 
     padding: 5rem 4rem;
-    gap: 5rem;
+    gap: 2rem;
 
 
 

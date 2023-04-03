@@ -1,26 +1,26 @@
 import styles from './CityCard.module.scss'
 
 interface CityCardProps {
-    cityImg: string
+    img: string
     cityName: string
-    cityDensity: number
-    cityArea: number
+    habitants: number
+    area: number
 }
 export function CityCard({
-    cityImg,
+    img,
     cityName,
-    cityDensity,
-    cityArea,
+    habitants,
+    area,
 
 }: CityCardProps) {
     return (
         <li className={styles.cityCard}>
-            <img src={cityImg} alt="" />
+            <img src={img} alt="" />
             <div>
                 <h4>{cityName}</h4>
                 <div className={styles.cityInfo}>
-                    <p>{cityDensity} Habitantes</p>
-                    <p>{cityArea} km²</p>
+                    <p>{habitants} Habitantes</p>
+                    <p>{area} km²</p>
                 </div>
             </div>
         </li>
